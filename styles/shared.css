@@ -31,6 +31,7 @@ header li {
     margin-left: 20px;
 }
 
-header li a {
+a {
     text-decoration: none;
+    color: black;
 }
