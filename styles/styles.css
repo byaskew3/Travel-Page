@@ -1,3 +1,46 @@
 #section1 {
     height: 800px;
+    background-image: url("../images/places/travel.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#section-content {
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#section-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#section-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#section-content a {
+    background-color: beige;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#section-content a:hover {
+    background-color: wheat;
 }
