@@ -22,6 +22,7 @@
     text-transform: uppercase;
     font-size: 40px;
     margin: 0px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #section-content p {
@@ -30,9 +31,13 @@
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 32px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #section-content a {
+    color: wheat;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     background-color: beige;
     padding: 10px 24px;
     border-radius: 10px;
@@ -43,4 +48,45 @@
 
 #section-content a:hover {
     background-color: wheat;
+    color: beige;
+}
+
+#section2 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(110, 110, 110);
+    font-size: 30px;
+    margin: 24px 0;
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.destination {
+    margin: 0 20px;
+}
+
+.destination p {
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.destination strong {
+    color: rgb(118, 134, 207);
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 8px rgb(59, 59, 59);
+    border-radius: 10px;
+    object-fit: cover;
 }
